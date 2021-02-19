@@ -1,0 +1,45 @@
+
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.App{
+  width : 40rem;
+  height : 100vh ;
+  margin : auto ; 
+  display: flex;
+  flex-direction: column
+  
+  /* border : 1px solid black */
+  
+}
+
+
+button {
+  background-color: #282c34; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 2.25rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+
+
+
+.sign-in {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+/* https://img.gadgethacks.com/img/04/62/63505005300586/0/manage-recover-your-facebook-chat-messages-history.w1456.jpg */
